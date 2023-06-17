@@ -1,9 +1,0 @@
-(melange.emit
- (alias runtest)
- (target test)
- (package reason-react)
- (module_systems
-  (commonjs bs.js))
- (libraries reason-react jest)
- (preprocess
-  (pps melange.ppx reason-react-ppx)))

@@ -1,5 +1,0 @@
-(library
- (name jest)
- (modes melange)
- (preprocess
-  (pps melange.ppx)))
